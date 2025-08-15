@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Independence Day Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>India Knowledge Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Welcome / Profile Modal -->
+    <div id="welcome" class="modal active" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+      <div class="modal-card">
+        <h2 id="welcomeTitle">Welcome to India Knowledge Challenge 🇮🇳</h2>
+        <p>Enter your details to start the quiz and compete on the leaderboard.</p>
+        <label>
+          Name
+          <input id="playerName" type="text" placeholder="Your name" maxlength="30" />
+        </label>
+        <label>
+          Age
+          <input id="playerAge" type="number" placeholder="Your age" min="6" max="120" />
+        </label>
+        <div class="row">
+          <button id="startBtn" class="btn primary">Start Quiz</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <header class="topbar">
+      <h1>🇮🇳 India Knowledge Challenge</h1>
+      <div class="meta">
+        <span id="greeting" aria-live="polite">Hello!</span>
+        <button id="viewLeaderboard" class="btn small">Leaderboard</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="quizArea" class="card hidden">
+        <div class="q-head">
+          <div class="q-index">Question <span id="qNum">1</span>/10</div>
+          <div class="q-timer">⏳ <span id="timer">10</span>s</div>
+        </div>
+
+        <div id="questionText" class="question">Question text</div>
+
+        <div id="options" class="options"></div>
+
+        <div id="explain" class="explain" aria-live="polite"></div>
+      </section>
+
+      <section id="scoreArea" class="card hidden">
+        <h2>Your Score</h2>
+        <div class="score large" id="finalScore">0 / 10</div>
+        <div class="row">
+          <button id="restart" class="btn">Play Again</button>
+          <button id="shareScore" class="btn green">Share on WhatsApp</button>
+          <button id="downloadCert" class="btn primary hidden">Download Certificate</button>
+        </div>
+      </section>
+
+      <section id="leaderboardArea" class="card">
+        <h3>🏆 Leaderboard (Top 10)</h3>
+        <ol id="leaderboardList"></ol>
+      </section>
+    </main>
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Certificate canvas hidden -->
+    <canvas id="certCanvas" width="1200" height="900" style="display:none"></canvas>
+
+    <footer class="footer">
+      <small>Made for Independence Day — Good luck and Jai Hind 🇮🇳</small>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,5 +1,7 @@
 # 🇮🇳 India Knowledge Challenge
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://sharthgouli.github.io/Independence-Day-Quiz/)
+
 Welcome to the **India Knowledge Challenge** — an engaging quiz to test your knowledge about India's Independence Day. This web-based quiz celebrates India's rich history and educates users in a fun and interactive way.
 
 ---
@@ -26,6 +28,12 @@ A **leaderboard** displays the top 10 scores to encourage friendly competition.
 
 ---
 
+## 🔗 Live Demo
+
+Try the quiz live here: [India Knowledge Challenge](https://sharthgouli.github.io/Independence-Day-Quiz/)
+
+---
+
 ## 🛠️ Technologies Used
 
 - **HTML5** – Structure of the web pages  
@@ -37,7 +45,7 @@ A **leaderboard** displays the top 10 scores to encourage friendly competition.
 
 ## 📥 How to Play
 
-1. Visit the quiz page: [India Knowledge Challenge](https://sharthgouli.github.io/Independence-Day-Quiz/)  
+1. Visit the quiz page: [Live Demo](https://sharthgouli.github.io/Independence-Day-Quiz/)  
 2. Enter your **Name** and **Age** to start the quiz.  
 3. Answer each question within 10 seconds.  
 4. View your score at the end and check the leaderboard.  
